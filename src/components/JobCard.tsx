@@ -6,8 +6,8 @@ import type { RootState } from '../redux/store';
 
 interface JobCardProps {
   job: Job;
-  isBookmarked?: boolean; // Optional prop
-  onBookmark?: () => void; // Optional prop
+  isBookmarked?: boolean; 
+  onBookmark?: () => void;
 }
 
 const JobCard: React.FC<JobCardProps> = ({ job, isBookmarked, onBookmark }) => {
@@ -21,7 +21,7 @@ const JobCard: React.FC<JobCardProps> = ({ job, isBookmarked, onBookmark }) => {
 
   const handleBookmark = () => {
     if (onBookmark) {
-      onBookmark(); // use external handler if provided
+      onBookmark();
     } else {
       if (bookmarked) {
         dispatch(removeBookmark(job.slug));

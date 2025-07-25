@@ -28,5 +28,4 @@ const BookmarksPage = () => {
     </Container>
   );
 };
-
 export default BookmarksPage;

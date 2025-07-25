@@ -4,11 +4,11 @@
     "useDefineForClassFields": true,
     "module": "ESNext",
     "moduleResolution": "Node",
+    "jsx": "react-jsx",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "react-jsx"
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"]
 }
